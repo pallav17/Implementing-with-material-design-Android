@@ -1,0 +1,101 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/windowBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="456dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:weightSum="2">
+
+
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+
+
+        <TextView
+            android:layout_width="371dp"
+            android:layout_height="35dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/txtLocation" />
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/bike"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heading out ?"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/txt1" />
+
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="30dp"
+            android:text="Shopping"
+            android:textSize="25dp"
+            android:textColor="@color/accent_material_light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:id="@+id/btn1" />
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="25dp"
+            android:background="@drawable/button"
+            android:text="Dinning"
+
+            android:textColor="@color/accent_material_light"
+            android:layout_gravity="center"
+
+            android:id="@+id/btn2" />
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="25dp"
+            android:background="@drawable/button"
+            android:textColor="@color/accent_material_light"
+            android:text="Entertainment"
+            android:layout_gravity="center"
+
+            android:id="@+id/btn3" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

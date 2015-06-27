@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/windowBackground">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textStyle="bold"
+        android:textSize="30dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtLocation" />
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="35dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Deals around you !!"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textStyle="bold"
+
+        android:textSize="30dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtDeals" />
+
+
+    <ListView
+        android:layout_height="wrap_content"
+        android:background="@color/bright_foreground_inverse_material_light"
+        android:layout_width="fill_parent" android:id="@+id/listV_main"/>
+</LinearLayout>
